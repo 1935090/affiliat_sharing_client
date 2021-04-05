@@ -1,0 +1,207 @@
+@font-face {
+  font-family: aspfFont;
+  src: url(../font/HelveticaNeueLt.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: aspfFont;
+  src: url(../font/HelveticaNeueMed.ttf);
+  font-weight: 700;
+}
+
+.slick-slide {
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slick-list {
+  border-radius: 10px;
+}
+
+body {
+  font-family: aspfFont, Microsoft JhengHei !important;
+  background-color: #fbfbfb !important;
+}
+
+.title-1 {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.drawer-custom {
+  border-radius: 3px 3px 0 0;
+}
+
+.slick-dots li button {
+  transform: scale(0.7);
+}
+
+.slick-dots li.slick-active button:before {
+  color: #1162be;
+  opacity: 1;
+}
+.slick-dots li button:before {
+  opacity: 1;
+  color: #ececec;
+}
+.slick-dots li {
+  margin: 0;
+}
+.slick-dots {
+  bottom: -15px;
+}
+.see-all {
+  font-weight: 700;
+  color: #2680eb;
+  font-size: 15px;
+}
+
+.title-3 {
+  font-weight: 700;
+  color: #000;
+  font-size: 21px;
+}
+
+.input-cus-1::placeholder {
+  color: #acacac;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.sm-blue-btn {
+  background-color: #2680eb !important;
+  color: #fff !important;
+  font-size: 15px !important;
+  height: auto !important;
+  border-radius: 3px !important;
+  padding: 5px 10px !important;
+}
+
+.big-blue-btn {
+  background-color: #2680eb !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  height: 50px !important;
+  border-radius: 3px !important;
+}
+
+.big-blue-btn-3 {
+  background-color: #2680eb !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  border-radius: 3px !important;
+}
+
+.big-purple-btn {
+  background-color: #6526eb !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  height: 50px !important;
+  border-radius: 3px !important;
+}
+
+.big-blue-btn-2 {
+  background-color: #005bcd !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  height: 50px !important;
+  border-radius: 10px !important;
+}
+
+.bottom-menu-block {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
+.MuiFormLabel-root {
+  font-size: 18px !important;
+}
+.MuiFormLabel-root.Mui-focused {
+  color: #2680eb !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 1px solid #2680eb !important;
+}
+
+.info-1 {
+  font-size: 18px;
+}
+
+.info-2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.MuiNativeSelect-select {
+  /*font-size: 20px !important;
+  margin-top: 5px !important;*/
+}
+
+.MuiSlider-valueLabel > span {
+  background-color: transparent !important;
+}
+
+.MuiSlider-valueLabel > span > span {
+  color: #8a8a8a !important;
+  font-size: 15px;
+}
+
+.MuiSlider-valueLabel {
+  top: -20px !important;
+}
+
+.rb {
+  border-radius: 3px;
+}
+
+.rb1 {
+  border-top-left-radius: 3px;
+}
+
+.rb2 {
+  border-top-right-radius: 3px;
+}
+
+.rb3 {
+  border-bottom-left-radius: 3px;
+}
+
+.rb4 {
+  border-bottom-right-radius: 3px;
+}
+
+.ReactModal__Overlay,
+.ReactModal__Overlay--after-open {
+  background-color: rgb(41 41 41 / 75%) !important;
+}
+
+.MuiInputBase-input:focus {
+  background-color: transparent !important;
+}
+
+.MuiRadio-colorSecondary.Mui-checked {
+  color: #3f51b5 !important;
+}
+
+label {
+  margin-bottom: 0 !important;
+}
+
+*::-webkit-scrollbar,
+::-webkit-scrollbar {
+  display: none;
+  overflow: hidden;
+}
+
+.ReactModal__Content {
+  width: 100%;
+  border-radius: 0% !important;
+  border: 0 !important;
+}
+
+.ReactModal__Overlay {
+  z-index: 999 !important;
+}

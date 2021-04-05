@@ -1,0 +1,89 @@
+{
+  "name": "ASPF",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@angular/core": "^11.0.2",
+    "@capacitor/android": "^2.4.0",
+    "@capacitor/cli": "^2.4.3",
+    "@capacitor/core": "^2.4.3",
+    "@capacitor/ios": "^2.4.3",
+    "@codetrix-studio/capacitor-google-auth": "^2.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@ionic-native/barcode-scanner": "^5.12.0",
+    "@ionic-native/core": "^5.12.0",
+    "@ionic-native/facebook": "^5.28.0",
+    "@ionic-native/file": "^5.12.0",
+    "@ionic-native/file-transfer": "^5.12.0",
+    "@ionic-native/social-sharing": "^5.28.0",
+    "@ionic-native/zip": "^5.12.0",
+    "@material-ui/core": "^4.7.1",
+    "@material-ui/icons": "^4.5.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.0",
+    "braintree-web": "^3.65.0",
+    "chart.js": "^2.9.3",
+    "cordova-plugin-facebook4": "^6.4.0",
+    "cordova-plugin-x-socialsharing": "^6.0.2",
+    "es6-promise-plugin": "^4.2.2",
+    "frs-hide-scrollbar": "^1.0.0",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-chartjs-2": "^2.10.0",
+    "react-chartkick": "^0.4.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-modal": "^3.11.2",
+    "react-number-format": "^4.4.1",
+    "react-owl-carousel2": "^0.3.0",
+    "react-owl-carousel3": "^2.2.5",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^4.0.1",
+    "react-share": "^4.3.1",
+    "react-slick": "^0.27.13",
+    "react-spring": "^8.0.27",
+    "react-swipe": "^6.0.4",
+    "react-use-gesture": "^8.0.1",
+    "swipe-js-iso": "^2.1.5",
+    "typescript": "^4.1.2",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:android": "react-scripts build && npx cap copy android && npx cap open android",
+    "build:ios": "react-scripts build && npx cap copy && npx cap open ios",
+    "buildweb": "react-scripts build && npx cap serve"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@angular/cli": "11.0.3",
+    "create-react-component-folder": "^0.3.4"
+  }
+}

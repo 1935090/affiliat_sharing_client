@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ASPF</string>
+    <string name="title_activity_main">ASPF</string>
+    <string name="package_name">com.aspf.mainapp</string>
+    <string name="custom_url_scheme">com.aspf.mainapp</string>
+    <string name="fb_app_id">338764423842947</string>
+    <string name="fb_app_name">ASPF</string>
+    <string name="server_client_id">1060031515028-gqlmom3jp4b1m8abipppbhvhvooo63tl.apps.googleusercontent.com</string>
+</resources>
